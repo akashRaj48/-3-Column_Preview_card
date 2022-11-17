@@ -1,0 +1,109 @@
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.sedans {
+  width: 20%;
+  height: 65vh;
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 7px 0 0 7px;
+}
+
+.sedan-c1 {
+  width: 70%;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.heading {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 30px;
+  font-weight: 700;
+}
+.psedan {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.2rem;
+}
+.btn {
+  width: 150px;
+  height: 40px;
+  padding: 8px;
+  border-color: hsl(0, 0%, 95%);
+  border-radius: 20px;
+  margin-top: 70px;
+  color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: hsl(31, 77%, 52%);
+  cursor: pointer;
+}
+/* suvs */
+.suvs {
+  width: 20%;
+  height: 65vh;
+  background-color: hsl(184, 100%, 22%);
+}
+
+.suvs-c1 {
+  width: 70%;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.btn-1 {
+  width: 150px;
+  height: 40px;
+  border-color: hsl(0, 0%, 95%);
+  border-radius: 20px;
+  margin-top: 70px;
+  color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: hsl(184, 100%, 22%);
+  cursor: pointer;
+}
+
+/* luxury */
+.luxury {
+  width: 20%;
+  height: 65vh;
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 7px 7px 0;
+}
+.luxury-c1 {
+  width: 70%;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.btn-2 {
+  width: 150px;
+  height: 40px;
+  border-color: hsl(0, 0%, 95%);
+  border-radius: 20px;
+  margin-top: 70px;
+  color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: hsl(179, 100%, 13%);
+  cursor: pointer;
+}
